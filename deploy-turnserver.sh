@@ -6,8 +6,8 @@ tls-listening-port=5349
 listening-ip="$internalIp"
 relay-ip="$internalIp"
 external-ip="$externalIp"
-realm=58.177.236.122
-server-name=58.177.236.122
+realm=preprod.seekerscapital.com
+server-name=preprod.seekerscapital.com
 lt-cred-mech
 userdb=/var/lib/turn/turndb
 # use real-valid certificate/privatekey files
@@ -17,7 +17,7 @@ pkey=/etc/ssl/turn_server_pkey.pem
 no-stdout-log"  | tee /etc/turnserver.conf
 
 
-turnadmin -a -u seekers -p seekers -r 58.177.236.122
+turnadmin -a -u seekers -p seekers -r preprod.seekerscapital.com
 
 turnserver
 

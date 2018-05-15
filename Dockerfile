@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-MAINTAINER Anastasia Zolochevska <anastasiia.zolochevska@gmail.com>
+MAINTAINER AQT
 
 # Set the working directory to /app
 WORKDIR /app
